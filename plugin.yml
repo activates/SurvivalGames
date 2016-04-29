@@ -1,0 +1,41 @@
+name: SurvivalGames-activates
+version: 0.0.1
+main: us.thetaco.survivalgames.SurvivalGames
+commands:
+    hgarena:
+        description: Used in the interaction of arenas
+        usage: /hgarena <subcommand> [args]
+    hgadmin:
+        desciption: Used in the creation and management of arenas
+        usage: /hgadmin <cubcommand> [args]
+permissions:
+    hungergames.commands.arena:
+        description: Gives you access to the /arena command
+        default: true
+    hungergames.commands.arena.list:
+        description: Gives you access to the /arena list command
+        default: true
+    hungergames.commands.arena.join:
+        description: Gives you access to the /arena join command
+        default: true
+    hungergames.commands.arena.leave:
+        description: Gives you access to the /arena leave command
+        default: op
+    hungergames.commands.admin:
+        description: Gives you access to the /hgadmin command
+        default: op
+    hungergames.commands.admin.create:
+        description: Gives you access to the /hgadmin create command
+        default: op
+    hungergames.commands.admin.delete:
+        description: Gives you access to the /hgadmin delete command
+        default: op
+    hungergames.commands.admin.update:
+        description: Gives you access to the /hgadmin update command
+        default: op
+    hungergames.commands.admin.reload:
+        description: Gives you access to the /hgadmin reload command
+        default: op
+    hungergames.commands.admin.kick:
+        description: Gives you access to the /hgadmin kick command
+        default: op
